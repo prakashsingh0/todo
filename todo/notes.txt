@@ -1,0 +1,16 @@
+visite demo video and code https://drive.google.com/drive/folders/1m0Yb4qZ01iyX0YwJt55UJJ74MfTmvqNA?usp=sharing
+
+git link https://github.com/prakashsingh0/todo
+open with code editer
+open  terminal inside code editer
+cd server 
+npm i // for instal the the dependencies
+nodemon
+
+open new terminal inside code editer 
+cd client
+npm i // for instal the the dependencies
+
+1. click on SignUp button and  create an account after that click on Login button
+
+
