@@ -33,7 +33,7 @@ const Login = ({ handleLogin }) => {
       });
 
       sessionStorage.setItem("token", response?.data?.token);
-      let user = JSON.stringify(response?.data?.user[0]);
+      // let user = JSON.stringify(response?.data?.user[0]);
       // console.log(user)
 
      // sessionStorage.setItem("user", user);
