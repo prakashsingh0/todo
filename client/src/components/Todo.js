@@ -32,7 +32,7 @@ const Todo = () => {
 
     useEffect(() => {
         getTodo(); // fetch data when component mounts
-    }, []);
+    });
 
     const onSubmitForm = async (e) => {
         e.preventDefault();
@@ -99,7 +99,7 @@ const Todo = () => {
 
     return (
         <>
-            <ToastContainer />
+            
             <div className='flex flex-col w-screen items-center'>
                 <div className='border p-5 mb-3'>
                     <h1>Todo Task</h1>
@@ -156,7 +156,7 @@ const Todo = () => {
                 </table>
                 {edit && <Edittask task={editTask} getTodo={getTodo} setEdit={setEdit} />}
             </div>
-
+            <ToastContainer />
         </>
     );
 };
